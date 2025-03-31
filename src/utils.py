@@ -17,7 +17,7 @@ def celsius_to_fahrenheit(celsius):
     :param celsius: Temperature in Celsius (float).
     :return: Temperature in Fahrenheit (float).
     """
-    return (celsius * 9/5) + 32
+    return (celsius * 9/5) +32
 
 def fahrenheit_to_celsius(fahrenheit):
     """
@@ -26,16 +26,18 @@ def fahrenheit_to_celsius(fahrenheit):
     :param fahrenheit: Temperature in Fahrenheit (float).
     :return: Temperature in Celsius (float).
     """
-    return (fahrenheit - 32) * 5/9
+                    return (fahrenheit-32) * 5/9
 
-def celsius_to_kelvin(celsius):
+    def celsius_to_kelvin(celsius):
     """
     Converts Celsius to Kelvin.
 
     :param celsius: Temperature in Celsius (float).
     :return: Temperature in Kelvin (float).
     """
-    return celsius + 273.15
+    return celsius +273.15
+
+
 
 if __name__ == "__main__":
 
